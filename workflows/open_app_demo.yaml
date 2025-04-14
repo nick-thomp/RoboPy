@@ -1,0 +1,4 @@
+name: "Demo Workflow"
+steps:
+  - type: open_app
+    path: "notepad.exe"

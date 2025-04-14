@@ -1,0 +1,14 @@
+name: "Demo Workflow"
+steps:
+  - type: open_app
+    path: "notepad.exe"
+  - type: wait
+    seconds: 2
+  - type: press_keys
+    keys: ["ctrl", "a"]
+  - type: type_text
+    text: "Hello from RoboPy!"
+  - type: press_keys
+    keys: ["ctrl", "s"]
+  - type: launch_webbrowser
+    url: "https://www.google.com"
